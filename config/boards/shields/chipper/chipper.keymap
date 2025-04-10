@@ -47,6 +47,18 @@
             quick-tap-ms = <175>;       // repeat on tap-into-hold
             require-prior-idle-ms = <150>;
         };
+
+        hml: home_row_mod_left {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            require-prior-idle-ms = <150>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <7 8 12>; // List of keys on the right side of the keyboard
+            hold-trigger-on-release;
+        };
     };
 / {
     conditional_layers {
@@ -66,7 +78,7 @@
                         display-name = "Base";
                         bindings = <
             //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-&bht LS(LC(LALT)) ESC  &bht LS(LC(LALT)) Q   &kp W    &kp E         &kp R         &kp T             &kp Y         &kp U         &bht PIPE I   &kp O         &lt FN P      &kp DEL
+&bht LS(LC(LALT)) ESC  &bht LS(LC(LALT)) Q   &hml LSHFT W    &kp E         &kp R         &kp T             &kp Y         &kp U         &bht PIPE I   &kp O         &lt FN P      &kp DEL
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼──────|──────┼─────────────┼─────────────┤ ├──────┤
 &bht LS(LC(LA(LGUI))) TAB   &bht LG(A) A     &kp S    &kp D      &bht LG(F) F     &kp G            &bht HASH H    &kp J         &kp K         &kp L         &kp RET       &kp RA(RET)
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├──────#──────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
