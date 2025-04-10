@@ -98,7 +98,7 @@
             //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
 &bht LS(LC(LALT)) ESC  &bht LS(LC(LALT)) Q   &hml LSHFT W    &kp E         &kp R         &kp T             &kp Y         &kp U         &bht PIPE I   &kp O         &lt FN P      &kp DEL
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼──────|──────┼─────────────┼─────────────┤ ├──────┤
-&bht LS(LC(LA(LGUI))) TAB &hml LGUI A  &hml LALT  S  &hml LSHFT D &hml LCTRL F     &kp G           &bht HASH H  &hmr LCTRL J   &hmr RSHFT K  &HMR LALT L  &hmr LGUI RET   &kp RA(RET)
+&bht LS(LC(LA(LGUI))) TAB &hml LGUI A  &hml LALT  S  &hml LSHFT D &hml LCTRL F     &kp G           &bht HASH H  &hmr LCTRL J   &hmr RSHFT K  &hmr LALT L  &hmr LGUI RET   &kp RA(RET)
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├──────#──────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
 &bht LCTRL BSPC    &lt FN Z    &bht LG(X) X   &bht LG(C) C   &bht LG(V) V  &bht LS(LC(LA(V))) B     &kp N         &kp M       &bht SEMI COMMA &bht COLON DOT &bht SQT QMARK  &kp RALT
             //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
