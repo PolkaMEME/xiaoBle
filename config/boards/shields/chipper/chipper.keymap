@@ -104,11 +104,11 @@
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├──────#──────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
         &bht LCTRL BSPC    &lt FN Z    &bht LG(X) X   &bht LG(C) C &bht LG(V) V    &kp B              &kp N         &kp M     &bht LT COMMA   &bht GT DOT &bht QMARK FSLH &kp RALT
             //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                                    &kp LSHFT     &bht LGUI ESC  &lt NAV SPC       &lt NUM BSPC &lt MOUSE  RET &lt MOUSE HASH
+                                                    &kp LSHFT     &bht LGUI ESC  &lt NAV SPC       &lt NUM RET &lt MOUSE BSPC &lt MOUSE HASH
              //                                    ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
                         >;                };
 
-                
+              
 
                 NAV_layer {
                         display-name = "NAV";
@@ -144,11 +144,11 @@
                         display-name = "NUM/SYM";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────────────┬──────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    ___     &bht DQT QMARK &kp LT        &kp DLLR      &kp GT        &kp BSLH       &bht EXCL EQUAL  &bht PLUS N7 &bht MINUS N8 &bht UNDER N9  &kp RG(P)     ___
+    ___     &bht DQT QMARK &kp LT        &kp DLLR      &kp GT        &kp BSLH       &bht EXCL EQUAL  &bht PLUS N7 &bht MINUS N8 &bht UNDER N9  &kp RG(P)     &kp MINUS
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────=!──────┼──────7+──────┼─────8-──────┼─────9_──────┼─────────────┤ ├──────┤
-    ___     &kp AT         &kp LPAR      &kp AMPS      &kp RPAR      &kp GRAVE      &bht HASH KP_DOT &bht STAR N4 &bht FSLH N5  &bht BSLH N6  ___           ___
+    ___     &kp AT         &kp LPAR      &kp AMPS      &kp RPAR      &kp GRAVE      &bht HASH KP_DOT &bht STAR N4 &bht FSLH N5  &bht BSLH N6  ___           &kp UNDER
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────.#──────┼─────4*───────┼──────5/─────┼──────6\─────┼─────────────┤ ├──────┤
-    ___     &kp TILDE      &kp LBKT      &kp CARET     &kp RBKT      ___            &bht PRCNT N0   &bht PIPE N1   &bht AMPS N2  &bht HASH N3  ___           ___
+    ___     &kp TILDE      &kp LBKT      &kp CARET     &kp RBKT      ___            &bht PRCNT N0   &bht PIPE N1   &bht AMPS N2  &bht HASH N3  &kp SQT        &kp DQT
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────0%──────┼──────1|──────┼─────2&──────┼──────3#──────┼─────────────╯ ╰──────╯
                                          ___           ___           ___             ___           &kp DEL        ___                                    
 //                                     ╰─────────────┴─────────────┴─────────────╯ ╰──────────────┴──────────────┼─────────────╯                                     
