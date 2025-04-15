@@ -45,7 +45,7 @@
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <5 17>;
             bindings = <&mo NUM>;
-    }
+        };
     };
      
 };
