@@ -41,7 +41,6 @@
             bindings = <&nayeon>;
         };
     };
-     combo
 };
 
 / {
