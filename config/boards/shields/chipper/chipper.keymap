@@ -41,6 +41,7 @@
             bindings = <&nayeon>;
         };
     };
+     combo
 };
 
 / {
@@ -104,7 +105,7 @@
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├──────#──────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
         &bht LCTRL BSPC    &lt FN Z    &bht LG(X) X   &bht LG(C) C &bht LG(V) V    &kp B              &kp N         &kp M     &bht LT COMMA   &bht GT DOT &bht QMARK FSLH &kp RALT
             //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                                    &kp LSHFT     &bht LGUI ESC  &lt NAV SPC       &lt NUM RET &lt MOUSE BSPC &lt MOUSE HASH
+                                                    &kp LGUI     &bht LSHFT ESC  &lt NAV SPC       &lt NUM RET &lt MOUSE BSPC &lt MOUSE TAB
              //                                    ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
                         >;                };
 
