@@ -17,9 +17,17 @@
 #define MOUSE 5
 #define NUM 6
 
-#define R_KEYS 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29
-#define L_KEYS 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35
-#define THUMBS 36 37 38 39 40 41 
+#define R_KEYS 0 1 2 3 4  5     12 13 14 15 16 17      24 25 26 27 28 29
+#define L_KEYS 6 7 8 9 10 11    18 19 20 21 22 23      30 31 32 33 34 35
+#define THUMBS 36 37 38 39 40 41
+
+//  0  1  2  3  4  5  ||  6  7  8  9 10 11
+//  12 13 14 15 16 17 || 18 19 20 21 22 23
+//  24 25 26 27 28 29 || 30 31 32 33 34 35
+//           36 37 38 || 39 40 41 
+ 
+
+
 
 / {
     macros {
@@ -43,7 +51,7 @@
         };
      combo_num_layer {
             timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <5 17>;
+            key-positions = <4 16>;
             bindings = <&mo NUM>;
         };
     };
@@ -51,7 +59,7 @@
 };
 
 / {
-        bht: balanced_hold_taps {
+         bht: balanced_hold_taps {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <280>;    // <---[[moderate duration]]
@@ -111,7 +119,7 @@
             //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├──────#──────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
         &bht LCTRL BSPC    &lt FN Z    &bht LG(X) X   &bht LG(C) C &bht LG(V) V    &kp B              &kp N         &kp M     &bht LT COMMA   &bht GT DOT &bht QMARK FSLH &kp UNDER
             //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                                    &kp LGUI     &bht LSHFT ESC  &lt NAV SPC       &lt NUM RET &lt MOUSE BSPC &lt MOUSE TAB
+                                                    &kp LGUI     &bht LSHFT ESC  &lt NAV SPC       &lt SYM RET &lt MOUSE BSPC &lt MOUSE TAB
              //                                    ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
                         >;                };
 
