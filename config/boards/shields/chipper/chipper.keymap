@@ -49,7 +49,7 @@
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <6 30>;
             bindings = <&nayeon>;
-        };
+       };
      combo_num_layer {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <4 16>;
@@ -58,12 +58,12 @@
      combo_num_tab {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <3 4>;
-            bindings = <&bht NUM TAB>;
+            bindings = <&lt NUM TAB>;
         };
      combo_media_esc {
             timeout-ms = <COMBO_TIMEOUT >;
             key-positions  = <2 3>;
-            bindings = <&bht MEDIA ESC>;
+            bindings = <&lt MEDIA ESC>;
         };   
     };
      
