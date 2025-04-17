@@ -60,21 +60,6 @@
             key-positions = <3 4>;
             bindings = <&lt NUM TAB>;
         };
-     combo_media_esc {
-            timeout-ms = <COMBO_TIMEOUT >;
-            key-positions  = <2 3>;
-            bindings = <&lt MEDIA ESC>;
-        };   
-     combo_left_fw {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <0 12 13>;
-            bindings = <&bootloader>;
-        };
-     combo_right_fw {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <11 23 35>;
-            bindings= <&bootloader>;
-        };
     };
      
 };
