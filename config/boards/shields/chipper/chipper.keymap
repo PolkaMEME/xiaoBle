@@ -62,12 +62,13 @@
             bindings = <&lt NUM TAB>;
         };
 
-      
      combo_zel_layer {
-            timeout = <COMBO_TIMEOUT>;
+            timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <7 8>;
             bindings = <&mo ZELLIJ>;
-        };     
+        };
+
+   
     };
      
 };
